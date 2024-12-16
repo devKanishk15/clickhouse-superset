@@ -391,11 +391,11 @@ supersetWorker:
   # -- Resource settings for the supersetWorker pods - these settings overwrite might existing values from the global resources object defined above.
   resources: 
      limits:
-      cpu: 500m
-      memory: 1Gi
-     requests:
       cpu: 1
       memory: 2Gi
+     requests:
+      cpu: 500m
+      memory: 1Gi
   podSecurityContext: {}
   containerSecurityContext: {}
   strategy: {}

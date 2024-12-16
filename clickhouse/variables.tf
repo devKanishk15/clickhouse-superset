@@ -44,23 +44,23 @@ variable "pv_mount_path" {
 variable "container_cpu_request" {
   description = "CPU request for the container"
   type        = string
-  default     = "250m"
+  default     = "500m"
 }
 
 variable "container_memory_request" {
   description = "Memory request for the container"
   type        = string
-  default     = "256Mi"
+  default     = "1Gi"
 }
 
 variable "container_cpu_limit" {
   description = "CPU limit for the container"
   type        = string
-  default     = "250m"
+  default     = "500m"
 }
 
 variable "container_memory_limit" {
   description = "Memory limit for the container"
   type        = string
-  default     = "256Mi"
+  default     = "1Gi"
 }

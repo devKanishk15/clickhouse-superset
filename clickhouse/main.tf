@@ -104,7 +104,7 @@ resource "kubernetes_deployment" "clickhouse" {
               port = 8123
             }
             initial_delay_seconds = 30
-            period_seconds        = 30
+            period_seconds        = 15
             timeout_seconds       = 5
             failure_threshold     = 3
           }
@@ -115,7 +115,7 @@ resource "kubernetes_deployment" "clickhouse" {
               port = 8123
             }
             initial_delay_seconds = 30
-            period_seconds        = 30
+            period_seconds        = 15
             timeout_seconds       = 5
             failure_threshold     = 3
           }
